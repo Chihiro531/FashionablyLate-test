@@ -1,0 +1,44 @@
+/* main */
+.thanks__content {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200x;
+    height: 800px;
+    background-color: #fff;
+    text-align: center;
+}
+/
+.back_thanks {
+    position: absolute;
+    white-space: nowrap;
+    font-size: 200px;
+    font-weight: bold;
+    color: rgba(182, 176, 176, 0.259);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front_thanks {
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    font-size: 18pt;
+    font-weight: bold;
+    top: 40%;
+    left: 25%;
+}
+
+button a {
+    background-color:rgba(147, 131, 118, 0.793) ;
+    position: absolute;
+    top: 55%;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    color: #fff;
+}

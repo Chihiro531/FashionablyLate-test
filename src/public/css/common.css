@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    line-height: 2;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100vh;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html {
+    font-size: 100%;
+    height: 100%;
+}
+
+body {
+    color: #383e45;
+    font-size: 0.9rem;
+    min-height: 100%;
+    height: 800px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header */
+
+#header {
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    background-color: #fff;
+    font-size: 36px;
+    color: #6f593dea;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto;
+}
+
+#header .site-title {
+    text-align: center;
+}
